@@ -23,10 +23,40 @@ void Layouter::evenSpaceHorizontally(int x1, int x2, int y, std::list<UIComponen
 	default:
 		targetPart = Part::_4;
 	}
-	int nowX = leftSpace ? spaceWidth+x1 : x1;
+	double nowX = leftSpace ? spaceWidth+x1 : x1;
 	for (auto i = cmpList.begin(); i != cmpList.end(); i++) {
 		(*i)->setPos({ nowX,y }, targetPart);
 		nowX += (*i)->getSize().getX() + spaceWidth;
 	}
 
+}
+
+void Layouter::evenSpaceVertically(int x, int y1, int y2, std::list<UIComponent*> cmpList, int horizontalAlighment, bool topSpace, bool bottomSpace)
+{
+	int lineHeight = abs(y2 - y1);
+	int sumHeight = 0;
+	for (UIComponent*c : cmpList) {
+		sumHeight += c->getSize().getY();
+	}
+	double spaceHeight = (double)(lineHeight - sumHeight)
+		/ (double)(cmpList.size() - 1 + (topSpace ? 1 : 0) + (bottomSpace ? 1 : 0));
+
+	Part targetPart;
+	switch (horizontalAlighment)
+	{
+	case LEFT:
+		targetPart = Part::TL;
+		break;
+	case RIGHT:
+		targetPart = Part::_3;
+		break;
+	case CENTER:
+	default:
+		targetPart = Part::_2;
+	}
+	double nowY = topSpace ? spaceHeight + y1 : y1;
+	for (auto i = cmpList.begin(); i != cmpList.end(); i++) {
+		(*i)->setPos({ x,nowY }, targetPart);
+		nowY += (*i)->getSize().getY + spaceHeight;
+	}
 }
