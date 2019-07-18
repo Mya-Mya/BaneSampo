@@ -1,0 +1,10 @@
+﻿  Button.cpp
+  MenuLayer.cpp
+  コードを生成中...
+g:\ドキュメント\localrepositories\banesampo\banesampo\uicomp\uicomptool.h(59): warning C4715: 'UICompTool::color': 値を返さないコントロール パスがあります。
+g:\ドキュメント\localrepositories\banesampo\banesampo\uicomp\uicomponent.h(103): warning C4715: 'UIComponent::getPos': 値を返さないコントロール パスがあります。
+  コンパイル中...
+  BaneSampo.cpp
+  コードを生成中...
+  BaneSampo.vcxproj -> G:\ドキュメント\LocalRepositories\BaneSampo\Debug\BaneSampo.exe
+  BaneSampo.vcxproj -> G:\ドキュメント\LocalRepositories\BaneSampo\Debug\BaneSampo.pdb (Partial PDB)

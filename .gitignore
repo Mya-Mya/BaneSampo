@@ -1,11 +1,15 @@
 
+*.opendb
+*.ipch
 *.vcxproj
 *.filters
 *.user
-*.obj
 *.tlog
 *.enc
-*.idb
+*.ilk
 *.pdb
-*.txt
-*.log
+*.obj
+BaneSampo/Log.txt
+*.idb
+*.db
+.vs/BaneSampo/v15/.suo
