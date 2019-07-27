@@ -55,6 +55,7 @@ inline Button::Button(std::string text, int font, int bgNormalColor, int bgOnmou
 	myCompList.push_back(_normal);
 	myCompList.push_back(_onMouse);
 	myCompList.push_back(_pushing);
+	_showing = _normal;
 }
 inline void Button::addActionListener(ActionListener * l)
 {
