@@ -27,10 +27,10 @@ public:
 	inline void setSize(Vec2 size, Part part)override;
 	void update();
 	void draw();
-	inline Text* getText();
-	inline Box* getNormalBox();
-	inline Box* getOnMouseBox();
-	inline Box* getPushingBox();
+	Text* getText();
+	Box* getNormalBox();
+	Box* getOnMouseBox();
+	Box* getPushingBox();
 };
 inline Button::Button()
 	:Button("uicomp::Button", 0)

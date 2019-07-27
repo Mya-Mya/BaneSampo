@@ -57,6 +57,9 @@
     <ClCompile Include="Keyboard.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>uicomp</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BSsystem.h">
@@ -93,9 +96,6 @@
       <Filter>uicomp</Filter>
     </ClInclude>
     <ClInclude Include="uicomp\Part.h">
-      <Filter>uicomp</Filter>
-    </ClInclude>
-    <ClInclude Include="uicomp\Singleton.h">
       <Filter>uicomp</Filter>
     </ClInclude>
     <ClInclude Include="uicomp\Text.h">

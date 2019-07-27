@@ -39,6 +39,7 @@ inline Dialog::Dialog(std::string message)
 		{ bBack->getSize().getX()/2,50}
 	);
 	bOK->addActionListener(this);
+	bOK->getText()->setAlighment(Text::CENTER);
 }
 
 inline void Dialog::actionPerformed(std::string m)

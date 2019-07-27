@@ -1,5 +1,6 @@
 #pragma once
 #include"DxLib.h"
+#pragma warning(disable:4715)
 /*
 http://www.tokyo-colors.com/dictionary/dictionary_category/japanese-color/page/2/
 */
