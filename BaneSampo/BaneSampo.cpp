@@ -4,6 +4,8 @@
 #include"Cakee\LayerManager.h"
 #include"uicomp\Mouse.h"
 #include"MenuLayer.h"
+#include"GameLayer.h"
+#include"Keyboard.h"
 int main()
 {
 	SetGraphMode(BSsystem::wndSize().getX(), BSsystem::wndSize().getY(), 16);
@@ -13,8 +15,9 @@ int main()
 
 	LayerManager*l = LayerManager::inst();
 	Mouse*m = Mouse::Instance();
-	l->addLayer(nullptr, new MenuLayer(), StackingMode::Top);
+	l->addLayer(nullptr, new GameLayer(), StackingMode::Top);
 	while(ScreenFlip() == 0 && ProcessMessage() == 0 && ClearDrawScreen() == 0) {
+		Keyboard_Update();
 		m->Update();
 		l->mainLoop();
 	}
