@@ -1,9 +1,10 @@
 #pragma once
-#include""
-class Mouse : public Singleton<Mouse> {
-
+class Mouse {
 	Mouse();
-	friend Singleton<Mouse>;
+	static Mouse*getInstance() {
+		static Mouse m;
+		return &m;
+	}
 
 public:
 	bool Update();	//XV
