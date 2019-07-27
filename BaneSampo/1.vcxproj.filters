@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Cakee">
+      <UniqueIdentifier>{1ae85487-0bf6-4127-88fc-204c16cd6bfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uicomp">
+      <UniqueIdentifier>{bffde92a-e087-4d9b-b672-b8125edbd73f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScene">
+      <UniqueIdentifier>{8c6c79b4-0ca3-44f5-860e-da19df0e5887}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BaneSampo.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Cakee\LayerManager.cpp">
+      <Filter>Cakee</Filter>
+    </ClCompile>
+    <ClCompile Include="uicomp\Box.cpp">
+      <Filter>uicomp</Filter>
+    </ClCompile>
+    <ClCompile Include="uicomp\Button.cpp">
+      <Filter>uicomp</Filter>
+    </ClCompile>
+    <ClCompile Include="uicomp\Layouter.cpp">
+      <Filter>uicomp</Filter>
+    </ClCompile>
+    <ClCompile Include="uicomp\Mouse.cpp">
+      <Filter>uicomp</Filter>
+    </ClCompile>
+    <ClCompile Include="uicomp\Vec2.cpp">
+      <Filter>uicomp</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuLayer.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Ball.cpp">
+      <Filter>GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLayer.cpp">
+      <Filter>GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BSsystem.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuLayer.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Cakee\Layer.h">
+      <Filter>Cakee</Filter>
+    </ClInclude>
+    <ClInclude Include="Cakee\LayerManager.h">
+      <Filter>Cakee</Filter>
+    </ClInclude>
+    <ClInclude Include="Cakee\Mouse.h">
+      <Filter>Cakee</Filter>
+    </ClInclude>
+    <ClInclude Include="Cakee\StackingMode.h">
+      <Filter>Cakee</Filter>
+    </ClInclude>
+    <ClInclude Include="uicomp\ActionListener.h">
+      <Filter>uicomp</Filter>
+    </ClInclude>
+    <ClInclude Include="uicomp\Box.h">
+      <Filter>uicomp</Filter>
+    </ClInclude>
+    <ClInclude Include="uicomp\Button.h">
+      <Filter>uicomp</Filter>
+    </ClInclude>
+    <ClInclude Include="uicomp\Layouter.h">
+      <Filter>uicomp</Filter>
+    </ClInclude>
+    <ClInclude Include="uicomp\Mouse.h">
+      <Filter>uicomp</Filter>
+    </ClInclude>
+    <ClInclude Include="uicomp\Part.h">
+      <Filter>uicomp</Filter>
+    </ClInclude>
+    <ClInclude Include="uicomp\Singleton.h">
+      <Filter>uicomp</Filter>
+    </ClInclude>
+    <ClInclude Include="uicomp\Text.h">
+      <Filter>uicomp</Filter>
+    </ClInclude>
+    <ClInclude Include="uicomp\UIComponent.h">
+      <Filter>uicomp</Filter>
+    </ClInclude>
+    <ClInclude Include="uicomp\UICompTool.h">
+      <Filter>uicomp</Filter>
+    </ClInclude>
+    <ClInclude Include="uicomp\Vec2.h">
+      <Filter>uicomp</Filter>
+    </ClInclude>
+    <ClInclude Include="Ball.h">
+      <Filter>GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLayer.h">
+      <Filter>GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
