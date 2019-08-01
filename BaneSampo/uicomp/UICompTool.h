@@ -1,6 +1,5 @@
 #pragma once
 #include"DxLib.h"
-#pragma warning(disable:4715)
 /*
 http://www.tokyo-colors.com/dictionary/dictionary_category/japanese-color/page/2/
 */
@@ -17,6 +16,7 @@ enum ColorName {
 	DarkGreen,//èºótêF
 	YellowGreen,//ÍSêF
 	White,
+	Black,
 };
 class UICompTool {
 public:
@@ -56,6 +56,10 @@ public:
 		case White:
 			return GetColor(255, 255, 255);
 			break;
+		case Black:
+		default:
+			break;
 		}
+		return GetColor(0, 0, 0);
 	}
 };

@@ -29,22 +29,22 @@ void Button::draw()
 	_text->draw();
 }
 
-Text * Button::getText()
+inline Text * Button::getText()
 {
 	return _text;
 }
 
-Box * Button::getNormalBox()
+inline Box * Button::getNormalBox()
 {
 	return _normal;
 }
 
-Box * Button::getOnMouseBox()
+inline Box * Button::getOnMouseBox()
 {
 	return _onMouse;
 }
 
-Box * Button::getPushingBox()
+inline Box * Button::getPushingBox()
 {
 	return _pushing;
 }

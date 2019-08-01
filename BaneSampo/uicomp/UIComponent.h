@@ -1,7 +1,6 @@
 #pragma once
 #include"Vec2.h"
 #include"Part.h"
-#pragma warning(disable:4715)
 class UIComponent {
 private:
 	Vec2 _halfSize;

@@ -48,17 +48,17 @@
     <ClCompile Include="MenuLayer.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="Ball.cpp">
-      <Filter>GameScene</Filter>
-    </ClCompile>
-    <ClCompile Include="GameLayer.cpp">
-      <Filter>GameScene</Filter>
-    </ClCompile>
     <ClCompile Include="Keyboard.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="Text.cpp">
-      <Filter>uicomp</Filter>
+    <ClCompile Include="GameScene\Ball.cpp">
+      <Filter>GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene\GameLayer.cpp">
+      <Filter>GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene\Food.cpp">
+      <Filter>GameScene</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -98,6 +98,9 @@
     <ClInclude Include="uicomp\Part.h">
       <Filter>uicomp</Filter>
     </ClInclude>
+    <ClInclude Include="uicomp\Singleton.h">
+      <Filter>uicomp</Filter>
+    </ClInclude>
     <ClInclude Include="uicomp\Text.h">
       <Filter>uicomp</Filter>
     </ClInclude>
@@ -110,17 +113,23 @@
     <ClInclude Include="uicomp\Vec2.h">
       <Filter>uicomp</Filter>
     </ClInclude>
-    <ClInclude Include="Ball.h">
-      <Filter>GameScene</Filter>
-    </ClInclude>
-    <ClInclude Include="GameLayer.h">
-      <Filter>GameScene</Filter>
-    </ClInclude>
     <ClInclude Include="Dialog.h">
       <Filter>ソース ファイル</Filter>
     </ClInclude>
     <ClInclude Include="Keyboard.h">
       <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene\Ball.h">
+      <Filter>GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene\GameLayer.h">
+      <Filter>GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene\Food.h">
+      <Filter>GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene\Warning.h">
+      <Filter>GameScene</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

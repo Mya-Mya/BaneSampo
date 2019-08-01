@@ -4,13 +4,16 @@
 #include"Cakee\LayerManager.h"
 #include"uicomp\Mouse.h"
 #include"MenuLayer.h"
-#include"GameLayer.h"
+#include"GameScene\GameLayer.h"
 #include"Keyboard.h"
-int main()
+#include<windows.h>
+int WINAPI WinMain(HINSTANCE,HINSTANCE,LPSTR,int)
+//int main()
 {
 	SetGraphMode(BSsystem::wndSize().getX(), BSsystem::wndSize().getY(), 16);
 	ChangeWindowMode(TRUE);
 	DxLib_Init();
+	SetWindowText("BaneSampo");
 	SetDrawScreen(DX_SCREEN_BACK);
 
 	LayerManager*l = LayerManager::inst();

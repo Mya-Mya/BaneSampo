@@ -1,16 +1,12 @@
 #pragma once
-class Mouse {
+#include"Singleton.h"
+
+class Mouse : public Singleton<Mouse> {
 
 	Mouse();
+	friend Singleton<Mouse>;
 
-	virtual ~Mouse() {}
-	Mouse(const Mouse&r) {}
-	Mouse&operator=(const Mouse&r) {}
 public:
-	static Mouse*Instance() {
-		static Mouse inst;
-		return&inst;
-	}
 	bool Update();	//更新
 	int GetPressingCount(int keyCode);//keyCodeのキーが押されているフレーム数を取得
 	int GetReleasingCount(int keyCode);//keyCodeのキーが離されているフレーム数を取得
